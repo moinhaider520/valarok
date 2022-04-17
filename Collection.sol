@@ -1153,7 +1153,7 @@ contract Collection is ERC721Enumerable, Ownable {
     constructor() ERC721("Valarok NFT Collection", "COCOA") {}
         // internal
         function _baseURI() internal view virtual override returns (string memory) {
-        return "ipfs://QmYGYzSfzE1NSuHHhcCZLkqeoNf1uiMqtp5b7xLhoYjBUh/";
+        return "ipfs/QmYGYzSfzE1NSuHHhcCZLkqeoNf1uiMqtp5b7xLhoYjBUh/";
     }
         // public
 
